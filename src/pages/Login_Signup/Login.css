@@ -1,0 +1,234 @@
+.right_top_image2 {
+  font-size: 1.2rem;
+  color: #1877f2;
+}
+
+.right_back,
+.right_top_image2,
+.right_top_image {
+  width: 38px;
+  height: 38px;
+  padding: 8px;
+  border-radius: 100%;
+  box-shadow: 0px 0px 5px 1px lightgray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer
+}
+
+.Login {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #1ab8f6;
+  
+}
+
+.login_container {
+  display: flex;
+  box-shadow: 1px 1px 50px 2px
+ grey;
+ border-radius:  2rem;;
+ height: 500px; 
+}
+
+.signup_container {
+  height: 530px;
+}
+
+.login_image {
+  height: 500px;
+  border-radius: 2rem 0rem 0rem 2rem;
+  width: 415px;
+}
+
+.signup_image {
+  height: 530px;
+  border-radius: 2rem 0rem 0rem 2rem;
+  width: 415px;
+}
+
+.login_right {
+  width: 500px;
+  padding: 2rem 6rem;
+  background-color: white;
+  border-radius: 0rem 2rem 2rem 0rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.right_head_message {
+  text-align: center;
+  color: #0e9def;
+}
+
+.right_many_top {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.right_many_login {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.right_m_b_content {
+  color: grey;
+  font-size: 12px;
+  background-color: white;
+  padding: 0px 10px;
+  position: absolute;
+}
+
+.right_arrow {
+  border-top: 1px solid lightgray;
+  width: 100%;
+}
+
+.right_many_bottom {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.right_form {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  
+}
+
+.form_email,
+.form_password {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.form_input {
+  border: none;
+  outline: none;
+  border-bottom: 1px solid lightgray;
+  padding: 8px 0px;
+  font-size: 14px;
+}
+
+.form_input:focus {
+  border-bottom: 1px solid #0e9def;
+}
+
+.form_label {
+  font-weight: bold;
+}
+
+.form_isLogin {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0.3rem;
+}
+
+.right_footer_signup,
+.form_isLogin_right {
+  font-size: 12px;
+  color: #f25db5;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.form_isLogin_left {
+  font-size: 12px;
+  font-weight: bold;
+  display: flex;
+  gap: 0.3rem;
+}
+
+.login_form_btn {
+  margin-top: 0.8rem;;
+}
+
+.right_foter {
+  font-size: 12px;
+  border-top: 1px solid lightgray;
+  padding: 1rem;
+  display: flex;
+  gap: 0.3rem;
+  justify-content: center;
+}
+
+.form_text {
+  display: flex;
+  gap: 1rem;
+}
+
+.form_text_bottom,
+.form_text_top {
+  display: flex;
+  flex-direction: column;
+  width: 47%;
+}
+
+.right_shipping_text_in {
+  color:#f25db5;
+  margin-top: 2rem;
+}
+
+.form_input2::-webkit-inner-spin-button,
+.form_input2::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+}
+
+.right_head1 {
+  position: relative;
+}
+
+.right_back {
+  font-size: 1.5rem;
+  color: #0e9def;
+}
+
+.right_back_cont {
+  position: absolute;
+  top: 0;
+  margin-top: 0.2rem;
+}
+
+.form_profile {
+  margin-top: 2rem;
+  margin-bottom: 10rem;
+}
+
+@media screen and (max-width: 1050px) {
+  .login_left {
+    display: none;
+  }
+  .login_right {
+    border-radius: 1rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .login_right {
+    padding: 2rem 3rem;
+    width: 350px;
+  }
+}
+
+@media screen and (max-width: 355px) { 
+  .login_right {
+    padding: 2rem 1rem;
+    width: 250px;
+  }
+  .form_isLogin_left,
+  .form_isLogin_right {
+    font-size: 11px;
+  }
+
+}
