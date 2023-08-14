@@ -4,10 +4,12 @@ import Signup from "./pages/Login_Signup/Signup1.jsx";
 import "./App.css";
 import Signup2 from './pages/Login_Signup/Signup2.jsx';
 import Signup3 from './pages/Login_Signup/Signup3.jsx';
+import Landing from './pages/Landing/Landing.jsx';
 
 const App = () => {
   return (
     <div className='App'>
+      <Landing />
       {/* <Signup3 /> */}
       {/* <Signup2 /> */}
       {/* <Signup /> */}

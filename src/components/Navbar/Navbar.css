@@ -1,0 +1,113 @@
+.Navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 0rem 15rem;
+  height: 11vh;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  background-color: white;
+  z-index: 99999;
+}
+.scroll_shadow {
+  box-shadow: 0px 0px 10px 0px lightgray;
+}
+
+.nav_left_logo {
+  font-family: var(--home2);
+  font-size: 2rem;
+}
+
+.logo_dot {
+  color: var(--nav-dot);
+}
+
+.btn_color {
+  background-image: linear-gradient( rgb(250, 130, 109), red); 
+  border-radius: 15px;
+  padding: 0.8rem 1.5rem;
+}
+
+.nav_middle_list {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.nav_middle_all {
+  list-style-type: none;
+}
+
+.nav_middle_all a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.4rem;
+  font-family: var(--home2);
+  padding: 0 0.2rem;
+  outline:none;
+}
+
+.nav_middle_all a:hover {
+  border-bottom: 2px solid var(--nav-dot);
+}
+
+.nav_bottom_line {
+  border-bottom: 2px solid var(--nav-dot);
+}
+
+.nav_right {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+}
+
+.nav_right_link {
+  font-size: 1.7rem;
+  cursor: pointer;
+}
+
+.nav_right_cross,
+.nav_right_responsive {
+  font-size: 1.7rem;
+  cursor: pointer;
+}
+
+.nav_right_small {
+  display: none;
+}
+
+@media screen and (max-width: 1300px) {
+  .Navbar {
+    padding: 0rem 10rem;
+  }
+}
+
+@media screen and (max-width: 1150px) {
+  .Navbar {
+    padding: 0rem 7rem;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  .nav_contact {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 930px) {
+  .nav_right_small {
+    display: block;
+  }
+  .nav_right,
+  .nav_middle {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .Navbar {
+    padding: 0rem 3rem;
+    position: sticky;
+    top:0
+  }
+}

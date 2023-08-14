@@ -21,9 +21,12 @@
   display:flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
-  background-color: #1ab8f6;
-  
+  height: 94vh;
+  /* background-color: #1ab8f6; */
+  background-image: linear-gradient(to right, #fbf6f2, #f7d6dd);
+  margin: 5vh;
+  margin-top: 1vh;
+  border-radius: 20px;
 }
 
 .login_container {
@@ -211,6 +214,11 @@
   }
   .login_right {
     border-radius: 1rem;
+  }
+  .Login {
+    margin: 0;
+    height: 100vh;
+    border-radius: 0;
   }
 }
 
